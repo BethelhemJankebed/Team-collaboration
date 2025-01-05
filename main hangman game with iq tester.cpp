@@ -14,7 +14,7 @@ int main() {
        "A fruit that is also a color."// Hint for "orange"
        "A tropical fruit that is sweet and juicy."// Hint for "mango"
    };
-   const int wordCount = 5;// Total number of words in the list
+   const int wordCount = 5;// Total number of words in the list.
 // Seed the random number generator using the current time
    srand(static_cast<unsigned>(time(0)));
 // Select a random word and its corresponding hint
