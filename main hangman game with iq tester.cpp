@@ -23,12 +23,14 @@ int main() {
    const char* hint = hints[randomIndex];// Select the hint
    int wordLength = 0;//initializing word length
 
-   for (wordLength = 0; word[wordLength] != '\0'; wordLength++) {}
+   for (wordLength = 0; word[wordLength] != '\0'; wordLength++) {} 
+   //initialize guessed array to track guessed letter
 
    bool guessed[wordLength] = {false};
-   int initialAttempts = 6;
-   int attemptsLeft = initialAttempts;
-   bool hintUsed = false;
+   // game variables
+   int initialAttempts = 6; //totall number of attempts allowed
+   int attemptsLeft = initialAttempts; // remaining attempts 
+   bool hintUsed = false;// flag to check if the hint has been used
 
    int baseIQ = 100; // Start with a base IQ score
    int iqPenaltyPerHint = 10; // Deduct points for using a hint
