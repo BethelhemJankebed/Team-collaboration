@@ -3,7 +3,7 @@
 #include <ctime>   // For time()
 #include <cctype>  // For isalpha()
 using namespace std;
-
+//This starts the main function where the program execution begins
 int main() {
    const char* words[] = {"apple", "banana", "grape", "orange", "mango"};
    const char* hints[] = {
@@ -69,8 +69,10 @@ int main() {
            }
        }
        if (wordGuessed) break;
-
-       cout << "\nAttempts left: " << attemptsLeft << endl;
+      
+//Checks if the player has guessed all the letters in the word. If so, it breaks the loop and ends the game.
+   
+      cout << "\nAttempts left: " << attemptsLeft << endl;
        cout << "Word: ";
        for (int i = 0; i < wordLength; i++) {
            if (guessed[i]) {
