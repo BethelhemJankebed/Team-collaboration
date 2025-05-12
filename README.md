@@ -1,7 +1,7 @@
 # Team-collaboration
 # Hangman Game with IQ Scoring
 
-This is an interactive **Hangman** game implemented in C++ with an added feature of IQ scoring. The game randomly selects a word from a predefined list of fruits, and you need to guess the letters in the word within a limited number of attempts. For each wrong guess, your IQ score decreases, and if you use a hint, you lose more IQ points. If you guess the word correctly, you gain IQ points!
+This is an interactive **Hangman** game implemented in C++ with an added feature of IQ scoring. The game randomly selects a word from a predefinned list of fruits, and you need to guess the letters in the word within a limited number of attempts. For each wrong guess, your IQ score decreases, and if you use a hint, you lose more IQ points. If you guess the word correctly, you gain IQ points!
 
 Features
 
